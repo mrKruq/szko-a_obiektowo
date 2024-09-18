@@ -11,5 +11,8 @@ public class Main {
 
         System.out.println(osobaIsia);
 
+        Uczen uczenEmil = new Uczen("Emil", "Smaladzki", 7, 123);
+        System.out.println(uczenEmil);
+
     }
 }

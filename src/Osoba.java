@@ -5,7 +5,7 @@ public class Osoba {
     //modyfikator dostepu private, protected
     //private widoczne tylko wewnatrz klasy
     private String imie;
-    private String nazwisko;
+    protected String nazwisko;
     private int wiek;
 
     //przeciążanie konstruktora

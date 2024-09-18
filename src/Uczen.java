@@ -14,4 +14,11 @@ public class Uczen extends Osoba{
         super(imie, nazwisko, wiek);
         this.nrEwidencyjny = nrEwidencyjny;
     }
+
+    @Override
+    public String toString() {
+        return "Uczen imie:"+getImie()+" nazwisko: "+nazwisko +
+                "nrEwidencyjny=" + nrEwidencyjny +
+                '}';
+    }
 }
