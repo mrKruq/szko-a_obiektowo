@@ -27,6 +27,6 @@ public class Main {
         System.out.println(uczen4);
         System.out.println("Liczba utworzonych obiektów: "+Uczen.liczbaObiektow);
 
-
+        System.out.println("proba");
     }
 }
