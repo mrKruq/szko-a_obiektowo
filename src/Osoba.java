@@ -65,10 +65,10 @@ public abstract class Osoba {
 
     @Override
     public String toString() {
-        return "Osoba" +
+        return "Osoba{" +
                 "imie='" + imie + '\'' +
                 ", nazwisko='" + nazwisko + '\'' +
                 ", wiek=" + wiek +
-                ' ';
+                '}';
     }
 }

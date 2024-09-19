@@ -26,7 +26,18 @@ public class Main {
         Uczen uczen4 =new Uczen("Lucjan","Wałek",13);
         System.out.println(uczen4);
         System.out.println("Liczba utworzonych obiektów: "+Uczen.liczbaObiektow);
+        Nauczyciel nauczyciel = new Nauczyciel("Ryszard", "Drań",30, "fizyka");
+        Klasa klasaProg = new Klasa("3x", nauczyciel);
+        klasaProg.dodajUczniaDoKlasy(uczenEmil);
+        klasaProg.dodajUczniaDoKlasy(uczen2);
+        klasaProg.dodajUczniaDoKlasy(uczen2);
+        klasaProg.dodajUczniaDoKlasy(uczen2);
+        klasaProg.dodajUczniaDoKlasy(uczen3);
+        klasaProg.dodajUczniaDoKlasy(uczen4);
+        System.out.println(klasaProg);
+        klasaProg.wypiszListeUczniow();
 
-        System.out.println("proba");
+        Szkola zs10 = Szkola.getSzkola();
+
     }
 }
