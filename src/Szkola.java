@@ -17,10 +17,21 @@ public class Szkola {
     public void dodajUczniaDoSzkoly(Uczen uczen) {
         uczniowie.add(uczen);
     }
-    public void dodajUczniaDoSzkoly(String imie, String nazwisko, int wiek){
+
+    public void dodajUczniaDoSzkoly(String imie, String nazwisko, int wiek) {
         uczniowie.add(new Uczen(imie, nazwisko, wiek));
     }
-    public void przypiszUczniaDoKlasy(Klasa klasa, Uczen uczen){
+
+    public void przypiszUczniaDoKlasy(Klasa klasa, Uczen uczen) {
         klasa.dodajUczniaDoKlasy(uczen);
     }
+
+    /*jeszcze nie dziala
+
+    public void usunUczniaZKlasy(Klasa klasa, Uczen uczen){
+        uczniowie.remove(uczen);
+    }
+
+     */
+
 }

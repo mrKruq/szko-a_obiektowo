@@ -36,6 +36,9 @@ public class Main {
         klasaProg.dodajUczniaDoKlasy(uczen4);
         System.out.println(klasaProg);
         klasaProg.wypiszListeUczniow();
+        /*
+        klasaProg.usunUczniaZKlasy(uczen3);
+         */
 
         Szkola zs10 = Szkola.getSzkola();
 
